@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* header */
+.out {
+  background-color: white;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  max-width: 665px;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+.up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.up p,
+a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.up img {
+  padding-right: 10px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.log {
+  display: flex;
+}
+.log a {
+  margin-right: 25px;
+}
+.log a:last-child {
+  margin-right: 0;
+}
+/* <!-- 1st block --> */
+.backg {
+  background-color: #ebebeb;
+  height: 1242px;
+}
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.item {
+  background: url(../img/our-services__item.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 360px;
+  margin: 25px 0;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: white;
+  padding: 0 0 45px 45px;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Lato", sans-serif;
+}
+.item:hover {
+  background: linear-gradient(
+      rgba(12, 158, 255, 0.226),
+      rgba(12, 158, 255, 0.226)
+    ),
+    url(/img/our-services__item.jpg);
+  transform: scale(1.03);
+}
+.block1 h2 {
+  margin: 45px 0;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 69px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+.block1 h4 {
+  color: #bdbdbd;
+  font-size: 24px;
+  padding-top: 60px;
+  font-family: "Lato", sans-serif;
+}
+/* 2nd block */
+.block2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 0;
+}
+.bl2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.bl2 h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bdbdbd;
+  padding-bottom: 20px;
+}
+.bl2 h2 {
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 69px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+}
+.bl2 h2.blue {
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 69px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 99, 161);
+  padding-bottom: 40px;
+}
+.bl2 p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bl3 {
+  width: 50%;
+  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item2 {
+  width: 250px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background: #ebebeb;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.item2:hover {
+  background: rgb(5, 99, 161);
+  color: white;
+}
+.cen {
+  margin-right: 20px;
+}
+.item2 .num {
+  font-family: "Lato", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.item2 p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.item2 a {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(5, 99, 161);
+  text-decoration: underline rgb(5, 99, 161);
+}
+.item2:hover a {
+  color: white;
+  text-decoration: underline white;
+}
